@@ -2,13 +2,13 @@ import spock.lang.*
 
 class AppTest extends Specification {
   def "it should say Hello, World"() {
-    given:
+    given: "The string Hello, World is provide"
       def String expected = "Hello, World"
 
-    when:
+    when: "Another string of Hello, World is provided"
       def String actual = "Hello, World"
 
-    then:
+    then: "They should be equal"
       actual == expected
   }
 }
